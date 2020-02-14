@@ -3,6 +3,8 @@ addEventListener("click", function(event){
     const imageWidth = 100;
     const imageHeight = 100;
 
-    image.setAttribute("src", `http://lorempixel.com/${imageWidth}/${imageHeight}/`)
+    image.setAttribute("src", `http://lorempixel.com/${imageWidth}/${imageHeight}/`);
+
+    image.style.position = "absolute";
     
 })
